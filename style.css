@@ -1,0 +1,78 @@
+
+html{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(238, 223, 201);
+}
+h9 {
+    display: flex;
+    justify-content: center;
+    font-style: italic;
+}
+.Frame{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-style: dashed;
+    border-radius: 20px;
+    width: 800px;
+    height: 800px;
+    background-color: black;
+}
+.Screen{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-style:groove;
+    border-radius: 20px;
+    background-color: aliceblue;
+    width: 750px;
+    height: 150px;
+    margin: 10px;
+    padding: 8px;
+    font-size: 40px;
+}
+.upperScreen{
+    text-align: left;
+    margin-left: 40px;
+}
+.lowerScreen{
+    text-align: right;
+    margin-right: 90px;
+}
+.buttonsBucket{
+    border-style: dashed;
+    width: 780px;
+    height: 630px;
+    margin: 10px;
+}
+.buttonsRow, .buttonsRow2, .buttonsRow3, .buttonsRow4, .buttonsRow5{
+    display: flex;
+    border-style: dashed;
+    width: 760px;
+    height: 114px;
+    margin: 6px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+button{
+    border-radius: 100%;
+    width: 124px;
+    height: 108px;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: aliceblue;
+    font-size: 48px;
+    background-color: gray;
+    border-style: none;
+}
+.buttonZero{
+    border-radius: 400px;
+    width: 492px;
+    height: 108px;
+    font-size: 48px;
+}
+.iconButton{
+    background-color: orange;
+    font-size: 70px;
+}
