@@ -76,3 +76,14 @@ button{
     background-color: orange;
     font-size: 70px;
 }
+.footer{
+    display: flex;
+    text-align: center;
+    justify-content:space-evenly;
+    margin-top: 6px;
+    color: rgb(87, 84, 84);
+    font-style: italic;
+}
+img{
+    height: 20px;
+}
