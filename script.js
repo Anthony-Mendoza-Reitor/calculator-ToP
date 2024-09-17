@@ -75,6 +75,7 @@ selectionButtons.forEach((button) =>{
             console.log(b)
         }
         else if((clickButton === '=') &&(counter < 0) ){
+            a = parseInt(a); b = parseInt(b);
             operate(a, b, operator);
             document.getElementsByClassName("lowerScreen")[0].innerHTML = c;
             counter = "done";
